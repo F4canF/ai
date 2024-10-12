@@ -47,4 +47,3 @@ model.fit(train_generator, validation_data=test_generator, epochs=10)
 model.save('handwriting_model.keras')
 
 
-#나이스 게임
