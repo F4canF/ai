@@ -22,8 +22,8 @@ predicted_class_index = np.argmax(result, axis=1)
 
 # 클래스 인덱스와 문자 매핑 (예시)
 class_indices = {
-    1: 'ㄱ', 2: 'ㄴ', 3: 'ㄷ', 
-    4: 'ㅏ', 5: 'ㅑ', 
+    0: 'ㄱ', 1: 'ㄴ', 2: 'ㄷ', 
+    3: 'ㅏ', 4: 'ㅑ', 
     # 나머지 문자 매핑 추가...
     138: '!', 139: '@'
 }
@@ -35,3 +35,4 @@ else:
     predicted_label = "알 수 없는 문자"
 
 print(f"예측된 결과: {predicted_label}")
+
